@@ -21,11 +21,11 @@ Landing de servicios + portfolio personal de Emiliano Caroprese. Una sola págin
 
 | Dato | Valor |
 | --- | --- |
-| Fase actual | Definición cerrada — listo para scaffolding |
+| Fase actual | Scaffolding completo — listo para construir secciones |
 | Stack | Astro + Tailwind CSS |
 | Deploy | Vercel |
-| Dominio | Pendiente (por ahora `.vercel.app`) |
-| Repo | Pendiente de crear |
+| Dominio | personal-website-sand-nine-38.vercel.app |
+| Repo | https://github.com/emicaroprese/personal-website |
 
 # 2. Propósito y audiencia
 
@@ -127,21 +127,18 @@ Acción secundaria: ver los proyectos en detalle.
 
 ### Estado actual
 
-Definición del proyecto completada. Secciones 1–7 cerradas. Listo para pasar a Claude Code y arrancar el scaffolding de Astro.
+Infraestructura completa. Repo en GitHub, Astro + Tailwind CSS instalados, deploy en Vercel funcionando. Lista para construir las secciones del MVP.
 
 ### Próximo paso
 
-1. Crear el repo en GitHub.
-2. Ejecutar `npm create astro@latest` y configurar el proyecto base.
-3. Configurar Tailwind CSS en Astro.
-4. Primer deploy en Vercel.
+Construir la estructura de la página: Layout compartido + las 4 secciones (Home, Servicios/Proyectos, Sobre mí, Contacto).
 
 ### Pendientes / decisiones abiertas
 
-- Definir nombre del repo.
 - Afinar el mecanismo de contacto (QR vs link directo vs ambos) cuando se llegue a esa sección.
 - Contenido real de "Sobre mí" (para cuando deje de ser mock).
 
 ### Changelog reciente
 
 - **Sesión 1 (inicio del proyecto):** definición completa de secciones 1–7. Stack elegido: Astro + Tailwind CSS + Vercel. Estructura: single-page. Estilo: minimalista, referencias mitchkoko/ritualz. Mock de aprendizaje confirmado.
+- **Sesión 2:** repo creado en GitHub, scaffolding de Astro con template minimal, Tailwind CSS v4 integrado, deploy en Vercel. URL: personal-website-sand-nine-38.vercel.app.
