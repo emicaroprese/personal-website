@@ -1,17 +1,62 @@
 ---
-import '../styles/global.css';
+import Layout from '../layouts/Layout.astro';
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<Layout>
+
+  <!-- Home -->
+  <section id="home" class="min-h-screen flex flex-col justify-center px-8 max-w-4xl mx-auto pt-24">
+    <p class="text-sm text-gray-400 mb-6 tracking-widest">01</p>
+    <h1 class="text-5xl font-light leading-tight mb-6">Emiliano<br />Caroprese</h1>
+    <p class="text-gray-500 max-w-sm mb-10 leading-relaxed">
+      Desarrollo páginas web y aplicaciones a medida para negocios.
+    </p>
+    <a href="#contacto" class="w-fit border border-black px-6 py-3 text-sm hover:bg-black hover:text-white transition-colors">
+      Contactame
+    </a>
+  </section>
+
+  <!-- Servicios / Proyectos -->
+  <section id="servicios" class="min-h-screen flex flex-col justify-center px-8 py-32 max-w-4xl mx-auto">
+    <p class="text-sm text-gray-400 mb-6 tracking-widest">02</p>
+    <h2 class="text-3xl font-light mb-20">Proyectos</h2>
+    <div class="flex flex-col gap-0">
+      <div class="border-t border-gray-200 py-10">
+        <h3 class="text-xl font-light mb-2">Páginas web</h3>
+        <p class="text-sm text-gray-400">Diseño y desarrollo de sitios web a medida.</p>
+      </div>
+      <div class="border-t border-gray-200 py-10">
+        <h3 class="text-xl font-light mb-2">App BOH cocina</h3>
+        <p class="text-sm text-gray-400">Sistema de gestión para cocinas profesionales.</p>
+      </div>
+      <div class="border-t border-gray-200 border-b py-10">
+        <h3 class="text-xl font-light mb-2">BOH empresa constructora</h3>
+        <p class="text-sm text-gray-400">Herramienta de gestión interna para empresa constructora.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre mí -->
+  <section id="sobre-mi" class="min-h-screen flex flex-col justify-center px-8 py-32 max-w-4xl mx-auto">
+    <p class="text-sm text-gray-400 mb-6 tracking-widest">03</p>
+    <h2 class="text-3xl font-light mb-10">Sobre mí</h2>
+    <p class="text-gray-500 max-w-md leading-relaxed">
+      Placeholder — párrafo corto que genere confianza en un cliente potencial. Cercano pero profesional.
+    </p>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="min-h-screen flex flex-col justify-center px-8 py-32 max-w-4xl mx-auto">
+    <p class="text-sm text-gray-400 mb-6 tracking-widest">04</p>
+    <h2 class="text-3xl font-light mb-12">Contacto</h2>
+    <div class="flex flex-col gap-4">
+      <a href="mailto:placeholder@email.com" class="text-lg hover:underline underline-offset-4">
+        placeholder@email.com
+      </a>
+      <a href="tel:+placeholder" class="text-lg hover:underline underline-offset-4">
+        +54 — (teléfono)
+      </a>
+    </div>
+  </section>
+
+</Layout>
