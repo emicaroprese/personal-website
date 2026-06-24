@@ -42,11 +42,12 @@ Reglas transversales:
 
 ## 5. Convenciones técnicas (tu dominio — confirmá y extendé)
 
-Reutilizables en tu stack (Astro):
+Reutilizables en tu stack (Astro + Tailwind CSS v4):
 
-- *(Por completar a medida que la experiencia lo enseñe: convenciones de rutas, componentes, imports, manejo de contenido, props, etc.)*
-
-*(Esta lista crece con lo que la experiencia te enseñe. Mantenela corta y concreta — es para no repetir errores, no para describir todo.)*
+- **Tailwind v4** se integra vía `@tailwindcss/vite` (no con `@astrojs/tailwind`). El comando es `npx astro add tailwind`.
+- **El CSS global** (`src/styles/global.css`) se importa en el Layout, no en las páginas individuales.
+- **Estructura de carpetas estándar:** `src/layouts/` para layouts, `src/pages/` para rutas, `src/styles/` para CSS global.
+- **Vercel + GitHub:** cada push a `main` deploya automáticamente. No hace falta comando extra.
 
 ## 6. Disciplina de documentos
 
@@ -66,5 +67,6 @@ Reutilizables en tu stack (Astro):
 
 > Errores concretos que ya pagamos en horas. Antes de armar o depurar algo, revisar acá primero. Esta sección crece sesión a sesión.
 
-- *(Por completar: cada bug que te cobres en Astro va acá, concreto.)*
+- **`npm create astro@latest .` en carpeta no vacía** crea una subcarpeta con nombre random (ej: `exotic-event`) en lugar de usar la carpeta actual. Fix: mover los archivos del scaffold manualmente a la carpeta raíz y borrar la subcarpeta. No usar `--force`.
+- **`npm install` falla con `EACCES` en `~/.npm`** cuando la caché tiene archivos con permisos root. Fix: correr `sudo chown -R 501:20 ~/.npm` en Terminal.app. No funciona con `!` desde Claude Code porque `sudo` necesita contraseña interactiva.
 - **Al cierre de cada sesión: documentar errores nuevos y aprendizajes acá. Obligatorio, no opcional.** Si te cobraste un bug y no lo escribís, la próxima sesión lo vuelve a cobrar — siempre pasa. Anotar concreto: el síntoma observado, la causa raíz, el fix exacto. Si no escribís, no aprendiste.
