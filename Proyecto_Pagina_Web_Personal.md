@@ -21,7 +21,7 @@ Landing de servicios + portfolio personal de Emiliano Caroprese. Una sola págin
 
 | Dato | Valor |
 | --- | --- |
-| Fase actual | Scaffolding completo — listo para construir secciones |
+| Fase actual | Secciones base en vivo — trabajando en diseño del hero |
 | Stack | Astro + Tailwind CSS |
 | Deploy | Vercel |
 | Dominio | personal-website-sand-nine-38.vercel.app |
@@ -72,6 +72,8 @@ Acción secundaria: ver los proyectos en detalle.
 # 4. Estilo visual
 
 **Referencias visuales:** mitchkoko.app · ritualz.app · mitchkoko.app/flutter
+
+**Referencia para el hero:** Dribbble — "Web Hero for Developer Portfolio" (dribbble.com/shots/25115559). Tipografía enorme y negrita, primera línea sólida y oscura, segunda línea efecto fantasma (gris muy claro). Adaptado a modo claro: fondo `#fafafa`, texto negro.
 
 **Paleta:** fondo claro (blanco o casi blanco, tipo `#f5f5f5` o `#fafafa`), texto negro. Sin color de acento llamativo — si existe, es muy sutil.
 
@@ -143,4 +145,4 @@ Afinar diseño (tipografía, espacios, mobile) y reemplazar placeholders con con
 
 - **Sesión 1:** definición completa de secciones 1–7. Stack: Astro + Tailwind CSS + Vercel. Estructura: single-page. Estilo: minimalista, referencias mitchkoko/ritualz.
 - **Sesión 2:** repo en GitHub, scaffolding Astro, Tailwind v4, deploy en Vercel. URL: personal-website-sand-nine-38.vercel.app.
-- **Sesión 3:** Layout compartido con navbar, página principal con 4 secciones en vivo. Estructura base completa.
+- **Sesión 3:** Layout compartido con navbar, página principal con 4 secciones en vivo. Estructura base completa. Referencia visual del hero definida (Dribbble). Documentos actualizados.
