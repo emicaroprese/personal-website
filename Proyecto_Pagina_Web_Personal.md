@@ -127,18 +127,20 @@ Acción secundaria: ver los proyectos en detalle.
 
 ### Estado actual
 
-Infraestructura completa. Repo en GitHub, Astro + Tailwind CSS instalados, deploy en Vercel funcionando. Lista para construir las secciones del MVP.
+Página en vivo con las 4 secciones (Home, Proyectos, Sobre mí, Contacto). Diseño minimalista base, numeración 01–04, navbar con scroll suave. Contenido placeholder.
 
 ### Próximo paso
 
-Construir la estructura de la página: Layout compartido + las 4 secciones (Home, Servicios/Proyectos, Sobre mí, Contacto).
+Afinar diseño (tipografía, espacios, mobile) y reemplazar placeholders con contenido real.
 
 ### Pendientes / decisiones abiertas
 
-- Afinar el mecanismo de contacto (QR vs link directo vs ambos) cuando se llegue a esa sección.
-- Contenido real de "Sobre mí" (para cuando deje de ser mock).
+- Afinar el mecanismo de contacto (QR vs link directo vs ambos).
+- Contenido real de "Sobre mí".
+- Email y teléfono reales en la sección Contacto.
 
 ### Changelog reciente
 
-- **Sesión 1 (inicio del proyecto):** definición completa de secciones 1–7. Stack elegido: Astro + Tailwind CSS + Vercel. Estructura: single-page. Estilo: minimalista, referencias mitchkoko/ritualz. Mock de aprendizaje confirmado.
-- **Sesión 2:** repo creado en GitHub, scaffolding de Astro con template minimal, Tailwind CSS v4 integrado, deploy en Vercel. URL: personal-website-sand-nine-38.vercel.app.
+- **Sesión 1:** definición completa de secciones 1–7. Stack: Astro + Tailwind CSS + Vercel. Estructura: single-page. Estilo: minimalista, referencias mitchkoko/ritualz.
+- **Sesión 2:** repo en GitHub, scaffolding Astro, Tailwind v4, deploy en Vercel. URL: personal-website-sand-nine-38.vercel.app.
+- **Sesión 3:** Layout compartido con navbar, página principal con 4 secciones en vivo. Estructura base completa.
